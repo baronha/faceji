@@ -19,7 +19,7 @@ export const env = {
   GOOGLE_SIGN_IN_WEB_CLIENT_ID: ' Config.GOOGLE_SIGN_IN_WEB_CLIENT_ID',
   IOS_CLIENT_ID: ' Config.IOS_CLIENT_ID',
   FACEBOOK_ID: 'Config.FACEBOOK_ID',
-  WEB_URL: "https://chatchik.com/", 
+  WEB_URL: "https://faceji.com/", 
   // SOCKET_URL: 'http://localhost:8800',
   SOCKET_URL: 'Config.SOCKET_URL',
   // SENTRY_DSN: 'https://9a24a80cd7dd41babb8f77debdedfca5@sentry.tiktik.to/4',

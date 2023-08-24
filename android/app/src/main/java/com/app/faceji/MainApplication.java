@@ -1,4 +1,4 @@
-package com.chatchik;
+package com.app.faceji;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

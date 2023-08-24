@@ -25,6 +25,7 @@ module.exports = {
     // Import plugin recommended rules
     'plugin:import/errors',
     'plugin:import/warnings',
+    '@react-native',
   ],
   settings: {
     react: {

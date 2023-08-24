@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0154A70F45434190A8A36227 /* manrope_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 422363E6CDEC41A3B4DD67D4 /* manrope_light.ttf */; };
 		0AE50FDA18D84E29A2954CAC /* manrope_extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72F47725E03345319611CFA5 /* manrope_extrabold.ttf */; };
-		0C80B921A6F3F58F76C31292 /* libPods-chatchik.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-chatchik.a */; };
+		0C80B921A6F3F58F76C31292 /* libPods-faceji.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-faceji.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -25,26 +25,26 @@
 
 /* Begin PBXFileReference section */
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* chatchikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatchikTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* facejiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facejiTests.m; sourceTree = "<group>"; };
 		0454A2BEAC104D4484F34AAB /* manrope_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = manrope_medium.ttf; path = ../src/asset/font/manrope_medium.ttf; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* chatchik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatchik.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = chatchik/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = chatchik/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = chatchik/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = chatchik/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = chatchik/main.m; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-chatchik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatchik.debug.xcconfig"; path = "Target Support Files/Pods-chatchik/Pods-chatchik.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* faceji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = faceji/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = faceji/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = faceji/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = faceji/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = faceji/main.m; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-faceji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faceji.debug.xcconfig"; path = "Target Support Files/Pods-faceji/Pods-faceji.debug.xcconfig"; sourceTree = "<group>"; };
 		3F25CD5410574D37BA924211 /* manrope_regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = manrope_regular.ttf; path = ../src/asset/font/manrope_regular.ttf; sourceTree = "<group>"; };
 		422363E6CDEC41A3B4DD67D4 /* manrope_light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = manrope_light.ttf; path = ../src/asset/font/manrope_light.ttf; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-chatchik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatchik.release.xcconfig"; path = "Target Support Files/Pods-chatchik/Pods-chatchik.release.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-chatchik.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chatchik.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B34CF0A7D63546082F79 /* Pods-faceji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faceji.release.xcconfig"; path = "Target Support Files/Pods-faceji/Pods-faceji.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-faceji.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-faceji.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F88DC9CC85A41F3B454251E /* manrope_semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = manrope_semibold.ttf; path = ../src/asset/font/manrope_semibold.ttf; sourceTree = "<group>"; };
 		72F47725E03345319611CFA5 /* manrope_extrabold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = manrope_extrabold.ttf; path = ../src/asset/font/manrope_extrabold.ttf; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = chatchik/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = faceji/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F593FCD0BAA4AACB3F92AF6 /* manrope_extralight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = manrope_extralight.ttf; path = ../src/asset/font/manrope_extralight.ttf; sourceTree = "<group>"; };
 		B96AD7F2B71943708E497789 /* manrope_bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = manrope_bold.ttf; path = ../src/asset/font/manrope_bold.ttf; sourceTree = "<group>"; };
 		BA8568772A1B05C900404C56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BAA273522A1BB59F00A8061F /* chatchik-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chatchik-Bridging-Header.h"; sourceTree = "<group>"; };
+		BAA273522A1BB59F00A8061F /* faceji-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "faceji-Bridging-Header.h"; sourceTree = "<group>"; };
 		BAA273532A1BB59F00A8061F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -54,20 +54,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-chatchik.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-faceji.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* chatchikTests */ = {
+		00E356EF1AD99517003FC87E /* facejiTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* chatchikTests.m */,
+				00E356F21AD99517003FC87E /* facejiTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = chatchikTests;
+			path = facejiTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -78,7 +78,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* chatchik */ = {
+		13B07FAE1A68108700A75B9A /* faceji */ = {
 			isa = PBXGroup;
 			children = (
 				BA8568772A1B05C900404C56 /* GoogleService-Info.plist */,
@@ -89,14 +89,14 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = chatchik;
+			name = faceji;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-chatchik.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-faceji.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,14 +126,14 @@
 			isa = PBXGroup;
 			children = (
 				BAA273532A1BB59F00A8061F /* File.swift */,
-				13B07FAE1A68108700A75B9A /* chatchik */,
+				13B07FAE1A68108700A75B9A /* faceji */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* chatchikTests */,
+				00E356EF1AD99517003FC87E /* facejiTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
 				832A5A18B6C94CBA81942CCE /* Resources */,
-				BAA273522A1BB59F00A8061F /* chatchik-Bridging-Header.h */,
+				BAA273522A1BB59F00A8061F /* faceji-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* chatchik.app */,
+				13B07F961A680F5B00A75B9A /* faceji.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,8 +151,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-chatchik.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-chatchik.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-faceji.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-faceji.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -160,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* chatchik */ = {
+		13B07F861A680F5B00A75B9A /* faceji */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "chatchik" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "faceji" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -179,9 +179,9 @@
 			);
 			dependencies = (
 			);
-			name = chatchik;
-			productName = chatchik;
-			productReference = 13B07F961A680F5B00A75B9A /* chatchik.app */;
+			name = faceji;
+			productName = faceji;
+			productReference = 13B07F961A680F5B00A75B9A /* faceji.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "chatchik" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "faceji" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -210,7 +210,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* chatchik */,
+				13B07F861A680F5B00A75B9A /* faceji */,
 			);
 		};
 /* End PBXProject section */
@@ -258,15 +258,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-chatchik/Pods-chatchik-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-faceji/Pods-faceji-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-chatchik/Pods-chatchik-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-faceji/Pods-faceji-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chatchik/Pods-chatchik-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faceji/Pods-faceji-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		42814FE656038AC737337C53 /* [CP-User] [RNFB] Core Configuration */ = {
@@ -297,7 +297,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-chatchik-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-faceji-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,15 +324,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-chatchik/Pods-chatchik-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-faceji/Pods-faceji-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-chatchik/Pods-chatchik-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-faceji/Pods-faceji-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chatchik/Pods-chatchik-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faceji/Pods-faceji-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -372,14 +372,15 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-chatchik.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-faceji.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MH67NQJ66H;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = chatchik/Info.plist;
+				INFOPLIST_FILE = faceji/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = faceji;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -391,9 +392,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chatchik.app;
-				PRODUCT_NAME = chatchik;
-				SWIFT_OBJC_BRIDGING_HEADER = "chatchik-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.faceji;
+				PRODUCT_NAME = faceji;
+				SWIFT_OBJC_BRIDGING_HEADER = "faceji-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -402,13 +403,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-chatchik.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-faceji.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MH67NQJ66H;
-				INFOPLIST_FILE = chatchik/Info.plist;
+				INFOPLIST_FILE = faceji/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = faceji;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -420,9 +422,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chatchik.app;
-				PRODUCT_NAME = chatchik;
-				SWIFT_OBJC_BRIDGING_HEADER = "chatchik-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.faceji;
+				PRODUCT_NAME = faceji;
+				SWIFT_OBJC_BRIDGING_HEADER = "faceji-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -489,6 +491,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -553,6 +556,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -568,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "chatchik" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "faceji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -577,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "chatchik" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "faceji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

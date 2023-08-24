@@ -100,7 +100,7 @@ export const MenuContent = ({ onClose }) => {
       </MenuItem>
       <MenuItem IconComp={QrCode}>QR Code</MenuItem>
       <Text type="muted" style={style.version}>
-        ChatChik - v.{DeviceInfo.getVersion()}
+        faceji - v.{DeviceInfo.getVersion()}
       </Text>
     </View>
   );

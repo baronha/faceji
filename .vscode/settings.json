@@ -1,6 +1,6 @@
 {
   "editor.codeActionsOnSave": {
-    // "source.fixAll.eslint": true
+    "source.fixAll.eslint": true
   },
   "search.exclude": {
     "**/.git": true,
@@ -21,7 +21,7 @@
   },
   "cSpell.words": [
     "camelcase",
-    "chatchik",
+    "faceji",
     "Iconoir",
     "mmkv",
     "modalfy",
