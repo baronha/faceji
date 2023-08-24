@@ -1,0 +1,31 @@
+{
+  "editor.codeActionsOnSave": {
+    // "source.fixAll.eslint": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "node_modules": true,
+    "**/**/**/*.xcodeproj": true,
+    "**/src/Asset/Icon/**/*.svg": true,
+    "**/android": true,
+    "**/vendor": true,
+    "**/ios": true,
+    "**/tmp": true,
+    "**/*.lock": true,
+    "**/*.ttf": true
+  },
+  "files.exclude": {
+    "*.svg": true,
+    "node_modules": true
+    // "**/*.ttf": true
+  },
+  "cSpell.words": [
+    "camelcase",
+    "chatchik",
+    "Iconoir",
+    "mmkv",
+    "modalfy",
+    "Monokai",
+    "Tabbar"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "types": ["react-native", "jest", "node"],
+    "typeRoots": ["@types", "./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "app": ["src/app"],
+      "component": ["src/component"],
+      "component/*": ["src/component/*"],
+      "navigator": ["src/navigator"],
+      "constant": ["src/constant"],
+      "hook": ["src/hook"],
+      "screen": ["src/screen"],
+      "theme": ["src/theme"],
+      "color": ["src/theme/color"],
+      "service": ["src/service"],
+      "context": ["src/context"],
+      "common": ["src/common"],
+      "asset": ["src/asset"],
+      "image": ["src/asset/image"],
+      "svg": ["src/asset/svg"],
+      "asset/*": ["src/asset/*"],
+      "language/*": ["src/language/*"],
+      "language": ["src/language"]
+    }
+  }
+}
