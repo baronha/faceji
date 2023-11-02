@@ -1,7 +1,6 @@
 export * from './env';
 export * from './type';
 export { default as STORAGE_KEY } from './storage.json';
-export * from './mockup';
 
 export const MESSAGE_TYPE = {
   1: 'text',

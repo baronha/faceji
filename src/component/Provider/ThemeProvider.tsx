@@ -1,3 +1,4 @@
+import React from 'react';
 import { STORAGE_KEY } from 'common';
 import { ColorType, ThemeContext } from 'hook';
 import { IconoirProvider } from 'iconoir-react-native';
@@ -15,13 +16,17 @@ type ThemeProviderProps = {
 
 export const ThemeProvider = (props: ThemeProviderProps) => {
   const { children, customColor } = props;
+  const storageTheme = useMMKVString(STORAGE_KEY.THEME)?.[0];
+
   let themeName = props?.themeName
     ? props?.themeName
     : customColor
     ? 'custom'
-    : useMMKVString(STORAGE_KEY.THEME)?.[0];
+    : storageTheme;
 
-  if (!themeName) themeName = 'light';
+  if (!themeName) {
+    themeName = 'light';
+  }
 
   const themeColor =
     customColor || (color?.[themeName as ColorNameType] ?? light);

@@ -12,6 +12,7 @@
       "constant": ["src/constant"],
       "hook": ["src/hook"],
       "screen": ["src/screen"],
+      "screen/*": ["src/screen/*"],
       "theme": ["src/theme"],
       "color": ["src/theme/color"],
       "service": ["src/service"],

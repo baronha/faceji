@@ -1,15 +1,17 @@
 import { StyleSheet, View, type ViewProps } from 'react-native';
-import { Layout, LayoutProps, Row } from './Layout';
 import { fontSize, space } from 'theme';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { ButtonIcon } from './ButtonIcon';
-import { ArrowLeft, Cancel } from 'iconoir-react-native';
+import { ArrowLeft, Xmark } from 'iconoir-react-native';
 import {
   NativeStackNavigationOptions,
   type NativeStackHeaderProps,
 } from '@react-navigation/native-stack';
 import { Text } from 'component';
 import { useTranslation } from 'react-i18next';
+import React, { FC } from 'react';
+
+import { ButtonIcon } from './ButtonIcon';
+import { Layout, LayoutProps, Row } from './Layout';
 
 interface Option extends NativeStackNavigationOptions {
   subTitle?: string;
@@ -22,7 +24,7 @@ export interface NavigationBarProps extends ViewProps, NativeStackHeaderProps {
   options: Option;
 }
 
-export const NavigationBar = (props: NavigationBarProps) => {
+export const NavigationBar: FC<NavigationBarProps> = props => {
   const { route, options, navigation } = props;
   const subTitle = options?.subTitle;
   const isModal = options?.animation === 'slide_from_bottom';
@@ -61,7 +63,7 @@ export const NavigationBar = (props: NavigationBarProps) => {
           <View style={[style.item, { alignItems: 'flex-end' }]}>
             {isModal ? (
               <ButtonIcon onPress={onBack}>
-                <Cancel />
+                <Xmark />
               </ButtonIcon>
             ) : null}
           </View>

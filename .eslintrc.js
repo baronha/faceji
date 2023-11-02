@@ -86,6 +86,7 @@ module.exports = {
     'react-native/no-unused-styles': 1,
     'react-native/no-color-literals': 0,
     'eslint-disable prettier/prettier': 0,
+    'react/no-unstable-nested-components': 0,
   },
   globals: {
     __CLIENT__: true,
